@@ -1,0 +1,26 @@
+.banner-button {
+    font-family: 'Roboto',
+        sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: block;
+    padding: 10px 32px;
+    border-radius: 4px;
+    border: none;
+    margin-right: auto;
+    margin-left: auto;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    background-color: var(--accent-color);
+    color: var(--white-color);
+    transition: background-color 250ms var(--timing-function);
+}
+
+.banner-button:hover,
+.banner-button:focus {
+    background-color: var(--button-colour);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
