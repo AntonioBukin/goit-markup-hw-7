@@ -9,6 +9,12 @@
     transition: color 250ms var(--timing-function) linear;
 }
 
+.nav-link:hover,
+.nav-link:focus,
+.current {
+    color: var(--accent-color);
+}
+
 .current::after {
     content: "";
     position: absolute;
@@ -32,6 +38,11 @@
     line-height: 1.14;
     color: var(--text-color);
     transition: color 250ms var(--timing-function);
+
+    &:hover,
+    &:focus,
+    .current {
+        color: var(--accent-color);}
 }
 
 .item-contacts:not(:last-child) {
@@ -49,18 +60,6 @@
     display: flex;
     align-items: center;
     margin-left: auto;
-}
-
-.nav-link:hover,
-.nav-link:focus,
-.current {
-    color: var(--accent-color);
-}
-
-.nav-contacts:hover,
-.nav-contacts:focus,
-.current {
-    color: var(--accent-color);
 }
 
 .page-header-container {

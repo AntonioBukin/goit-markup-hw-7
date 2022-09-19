@@ -45,10 +45,10 @@
 
 .modal-close-icon {
     transition: fill 250ms var(--timing-function);
+
+    &:focus,
+    &:hover {
+     cursor: pointer;
+     fill: var(--accent-color);}
 }
 
-.modal-close-icon:focus,
-.modal-close-icon:hover {
-    cursor: pointer;
-    fill: var(--accent-color);
-}

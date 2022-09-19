@@ -49,12 +49,11 @@
     fill: var(--icon-color);
     background-color: var(--white-color);
     transition: background-color 250ms var(--timing-function), fill 250ms var(--timing-function);
-}
 
-.social-list-link:hover,
-.social-list-link:focus {
-    fill: var(--white-color);
-    background-color: var(--accent-color);
+    &:hover,
+    &:focus {
+     fill: var(--white-color);
+     background-color: var(--accent-color);}
 }
 
 .name {

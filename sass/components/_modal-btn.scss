@@ -16,11 +16,11 @@
     background-color: var(--accent-color);
     color: var(--white-color);
     transition: background-color 250ms var(--timing-function);
+
+    &:hover,
+    &:focus {
+     background-color: var(--button-colour);
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+     border-radius: 4px;}
 }
 
-.banner-button:hover,
-.banner-button:focus {
-    background-color: var(--button-colour);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-}
