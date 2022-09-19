@@ -1,9 +1,9 @@
-.our-products {
+.products {
     padding-top: 94px;
     padding-bottom: 94px;
 }
 
-.products-title,
+.title,
 .clients,
 .comandos-title {
     font-style: normal;
@@ -19,14 +19,14 @@
     align-items: center;
 }
 
-.products-item {
+.products-work__item {
     position: relative;
 
     &:not(:last-child) {
      margin-right: 30px;}
 }
 
-.overlay-all-work {
+.products-work__overlay {
     position: absolute;
     bottom: 0%;
     left: 0%;
@@ -38,11 +38,11 @@
     justify-content: center;
 }
 
-.pictures-work {
+.products-work__img {
     display: block;
 }
 
-.overlay-all-work-text {
+.products-work__text {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 14px;

@@ -41,6 +41,11 @@
     background-color: transparent;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0px;
+    transition: border 250ms var(--timing-function);
+
+    &:hover,
+    &:focus {
+        border: 1px solid var(--accent-color);}
 }
 
 .modal-close-icon {
@@ -49,6 +54,7 @@
     &:focus,
     &:hover {
      cursor: pointer;
-     fill: var(--accent-color);}
+     fill: var(--accent-color);
+    }
 }
 
