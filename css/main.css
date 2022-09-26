@@ -303,6 +303,7 @@ body {
   display: flex;
   align-items: center;
   margin-bottom: 25px;
+  justify-content: center;
 }
 
 .modal-form-send {
@@ -329,6 +330,10 @@ body {
   background-color: var(--button-colour);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+}
+
+.modal-form-own-text {
+  color: var(--accent-color);
 }
 
 .header {
